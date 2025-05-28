@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zVhQQYw+PX8qT1L+DNd9r9IV+0vs3btad40EJaxZVIk=",
+  "Hash": "k+qYbop/oONIjHSFsAMa3d20qD5DqzpBk7gR85aSmzw=",
   "Source": "BlazorTodoApp",
   "BasePath": "_content/BlazorTodoApp",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BlazorTodoApp\\wwwroot",
       "Source": "BlazorTodoApp",
-      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\",
+      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\",
       "BasePath": "_content/BlazorTodoApp",
       "Pattern": "**"
     }
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "C:\\Users\\ayoub\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodoApp.styles.css",
+      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodoApp.styles.css",
       "SourceId": "BlazorTodoApp",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorTodoApp",
       "RelativePath": "BlazorTodoApp#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1379,13 +1379,13 @@
       "Integrity": "LTWkRoIOypACd2HpGGAaPD7+hstgzdYtWC+7VVZcsGQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodoApp.styles.css"
+      "OriginalItemSpec": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodoApp.styles.css"
     },
     {
-      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css",
+      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css",
       "SourceId": "BlazorTodoApp",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorTodoApp",
       "RelativePath": "BlazorTodoApp#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1400,13 +1400,13 @@
       "Integrity": "0vaDv785HD95epb6pEkY3hfDD42UzjPhfxlZ+G+n8ac=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css"
+      "OriginalItemSpec": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css"
     },
     {
-      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\app.css",
+      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\app.css",
       "SourceId": "BlazorTodoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\",
+      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\",
       "BasePath": "_content/BlazorTodoApp",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorTodoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\",
+      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\",
       "BasePath": "_content/BlazorTodoApp",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorTodoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\",
+      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\",
       "BasePath": "_content/BlazorTodoApp",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\favicon.png",
+      "Identity": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\favicon.png",
       "SourceId": "BlazorTodoApp",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\",
+      "ContentRoot": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\",
       "BasePath": "_content/BlazorTodoApp",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1638,7 +1638,7 @@
     },
     {
       "Route": "app.0fi75qdw1j.css",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\app.css",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1683,7 +1683,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\app.css",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1720,7 +1720,7 @@
     },
     {
       "Route": "BlazorTodoApp.2g9cswaqoy.bundle.scp.css",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1765,7 +1765,7 @@
     },
     {
       "Route": "BlazorTodoApp.5ur1qu297d.styles.css",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodoApp.styles.css",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodoApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1814,7 +1814,7 @@
     },
     {
       "Route": "BlazorTodoApp.bundle.scp.css",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1851,7 +1851,7 @@
     },
     {
       "Route": "BlazorTodoApp.styles.css",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodoApp.styles.css",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTodoApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1892,7 +1892,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1937,7 +1937,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1974,7 +1974,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2019,7 +2019,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2056,7 +2056,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\favicon.png",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2101,7 +2101,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\favicon.png",
+      "AssetFile": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {

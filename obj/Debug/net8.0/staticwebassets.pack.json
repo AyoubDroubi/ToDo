@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "F:\\Else Proj\\blazor-todo-app-main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css",
+      "Id": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTodoApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorTodoApp.2g9cswaqoy.bundle.scp.css"
     },
     {
-      "Id": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\app.css",
+      "Id": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\Else Proj\\blazor-todo-app-main\\wwwroot\\favicon.png",
+      "Id": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

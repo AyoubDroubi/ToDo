@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j0Y5bY7YBts=",
+  "dgSpecHash": "tw3S5l7LCd4=",
   "success": true,
-  "projectFilePath": "F:\\Else Proj\\blazor-todo-app-main\\BlazorTodoApp.csproj",
+  "projectFilePath": "F:\\Else Proj\\blazor-todo-app-main\\ToDo\\BlazorTodoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayoub\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ayoub\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
