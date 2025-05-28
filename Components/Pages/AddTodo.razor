@@ -1,0 +1,76 @@
+﻿@page "/addtodo"
+@rendermode InteractiveServer
+@using BlazorTodoApp.Models
+@using BlazorTodoApp.Services
+@inject TodoService todoService
+@inject NavigationManager navigationManager
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<AppUser> userManager
+@inject AuthenticationStateProvider authenticationStateProvider
+
+@using Microsoft.AspNetCore.Authorization
+@using System.Security.Claims
+
+@attribute [Authorize]
+
+<PageTitle>Add todo</PageTitle>
+<h3>Add Todo</h3>
+
+<MudContainer Class="mt-4 ms-auto">
+    <MudGrid>
+        <MudItem xs="12" md="6">
+            <div class="mb-3">
+                <label for="titleInput" class="form-label ">Title</label>
+                <MudTextField @bind-Value="todo.Title" />
+            </div>
+            <div class="mb-3">
+                <label for="descriptionInput" class="form-label">Description</label>
+                <MudTextField @bind-Value="todo.Description" />
+            </div>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="HandleSubmit">Add Todo</MudButton>
+            <MudLink Href="/todolist" Class="btn btn-primary col-md-3" Color="Color.Dark">See todo list</MudLink>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
+
+
+@if (added)
+{
+    <div class="alert alert-success mt-4 col-md-6">
+        <p>Your todo has been added successfully</p>
+    </div>
+}
+
+@code {
+
+    Todo todo = new Todo();
+    bool added = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await authenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            todo.UserId = user.FindFirstValue(ClaimTypes.NameIdentifier);
+        }
+    }
+
+    protected async void HandleSubmit()
+    {
+        await todoService.AddTodoAsync(todo);
+        added = true;
+        todo = new Todo();
+        StateHasChanged();
+        await ResetAddedToFalse();
+    }
+
+    private async Task ResetAddedToFalse()
+    {
+        await Task.Delay(3000);
+        added = false;
+        StateHasChanged();
+    }
+
+}

@@ -1,0 +1,59 @@
+﻿@inherits LayoutComponentBase
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Components.Authorization
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<div class="page">
+    <div class="" style="width: 200px; overflow: hidden;">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+            @if (IsUserSignedIn)
+            {
+                <a href="/Account/Manage">Profile</a>
+                <a href="/Account/Logout">Logout</a>
+            }
+            else
+            {
+                <a href="/Account/Login">Login</a>
+                <a href="/Account/Register">Register</a>
+            }
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code {
+    private bool IsUserSignedIn;
+
+    protected override async Task OnInitializedAsync()
+    {
+        IsUserSignedIn = await IsUserSignedInAsync();
+    }
+
+    private async Task<bool> IsUserSignedInAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        return user.Identity.IsAuthenticated;
+    }
+}

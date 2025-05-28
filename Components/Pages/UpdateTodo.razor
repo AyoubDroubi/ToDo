@@ -1,0 +1,58 @@
+﻿@page "/updatetodo/{id:int}"
+@using BlazorTodoApp.Models
+@using BlazorTodoApp.Services
+@inject TodoService todoService
+@rendermode InteractiveServer
+@inject NavigationManager navigationManager
+
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+
+<PageTitle>Update todo</PageTitle>
+<h3>UpdateTodo</h3>
+
+@if (todo != null)
+{
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="titleInput" class="form-label">Title</label>
+                    <input id="titleInput" type="text" class="form-control" @bind="todo.Title" />
+                </div>
+                <div class="mb-3">
+                    <label for="descriptionInput" class="form-label">Description</label>
+                    <input id="descriptionInput" type="text" class="form-control" @bind="todo.Description" />
+                </div>
+                <div class="mb-3">
+                    <label for="isCompletedInput" class="form-label">Is Completed</label>
+                    <input id="isCompletedInput" type="checkbox" class="form-check-input" @bind="todo.IsCompleted" />
+                </div>
+                <button type="button" class="btn btn-primary" @onclick="HandleSubmit">Update Todo</button>
+                <a class="btn btn-secondary" href="/todolist">Back to Todo List</a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <p><em>Loading...</em></p>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    Todo todo;
+
+    protected override async Task OnInitializedAsync()
+    {
+        todo = await todoService.GetTodoByIdAsync(id);
+    }
+
+    protected async Task HandleSubmit()
+    {
+        await todoService.UpdateTodoAsync(todo);
+        StateHasChanged();
+        navigationManager.NavigateTo("todolist");
+    }
+}

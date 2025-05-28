@@ -1,0 +1,229 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorTodoApp
+build_property.RootNamespace = BlazorTodoApp
+build_property.ProjectDir = F:\Else Proj\blazor-todo-app-main\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Else Proj\blazor-todo-app-main
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/ConfirmEmail.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcQ29uZmlybUVtYWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/ConfirmEmailChange.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcQ29uZmlybUVtYWlsQ2hhbmdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/ExternalLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcRXh0ZXJuYWxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/ForgotPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcRm9yZ290UGFzc3dvcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/ForgotPasswordConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcRm9yZ290UGFzc3dvcmRDb25maXJtYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/InvalidPasswordReset.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcSW52YWxpZFBhc3N3b3JkUmVzZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/InvalidUser.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcSW52YWxpZFVzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Lockout.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTG9ja291dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/LoginWith2fa.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTG9naW5XaXRoMmZhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/LoginWithRecoveryCode.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTG9naW5XaXRoUmVjb3ZlcnlDb2RlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/ChangePassword.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXENoYW5nZVBhc3N3b3JkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/DeletePersonalData.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXERlbGV0ZVBlcnNvbmFsRGF0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/Disable2fa.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXERpc2FibGUyZmEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/Email.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXEVtYWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/EnableAuthenticator.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXEVuYWJsZUF1dGhlbnRpY2F0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/ExternalLogins.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXEV4dGVybmFsTG9naW5zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/GenerateRecoveryCodes.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXEdlbmVyYXRlUmVjb3ZlcnlDb2Rlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/PersonalData.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXFBlcnNvbmFsRGF0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/ResetAuthenticator.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXFJlc2V0QXV0aGVudGljYXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/SetPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXFNldFBhc3N3b3JkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/TwoFactorAuthentication.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXFR3b0ZhY3RvckF1dGhlbnRpY2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Manage/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcTWFuYWdlXF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/RegisterConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcUmVnaXN0ZXJDb25maXJtYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/ResendEmailConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcUmVzZW5kRW1haWxDb25maXJtYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/ResetPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcUmVzZXRQYXNzd29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/ResetPasswordConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcUmVzZXRQYXNzd29yZENvbmZpcm1hdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Pages/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcUGFnZXNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Shared/AccountLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcU2hhcmVkXEFjY291bnRMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Shared/ExternalLoginPicker.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcU2hhcmVkXEV4dGVybmFsTG9naW5QaWNrZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Shared/ManageLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcU2hhcmVkXE1hbmFnZUxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Shared/ManageNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcU2hhcmVkXE1hbmFnZU5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcU2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Shared/ShowRecoveryCodes.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcU2hhcmVkXFNob3dSZWNvdmVyeUNvZGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Account/Shared/StatusMessage.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFjY291bnRcU2hhcmVkXFN0YXR1c01lc3NhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXEFwcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Pages/AddTodo.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXFBhZ2VzXEFkZFRvZG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXFBhZ2VzXENvdW50ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXFBhZ2VzXEVycm9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXFBhZ2VzXEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Pages/TodoList.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXFBhZ2VzXFRvZG9MaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Pages/UpdateTodo.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXFBhZ2VzXFVwZGF0ZVRvZG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXFBhZ2VzXFdlYXRoZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXFJvdXRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXExheW91dFxNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-vt78lgdym6
+
+[F:/Else Proj/blazor-todo-app-main/ToDo/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = VG9Eb1xDb21wb25lbnRzXExheW91dFxOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-x6uimi187i

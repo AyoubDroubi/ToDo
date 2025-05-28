@@ -1,0 +1,58 @@
+@implements IDisposable
+@inject NavigationManager NavigationManager
+
+
+<div class="nav-scrollable mb-0" @onclick="ToggleDrawer">
+    <nav class="flex-column">
+        <MudPaper Style="overflow:hidden; min-height: 150vh; position:relative; ">
+            <MudDrawerContainer Class="mud-height-full">
+                <MudDrawer @bind-Open="@open" Elevation="0" Variant="@DrawerVariant.Persistent" Color="Color.Primary">
+                    <MudDrawerHeader>
+                        <MudText Typo="Typo.h6">Todo App</MudText>
+                    </MudDrawerHeader>
+                    <MudNavMenu>
+                        <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Dashboard" IconColor="Color.Inherit" Href="/">Home</MudNavLink>
+                        <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.LocalLibrary" IconColor="Color.Inherit" Href="counter">Counter</MudNavLink>
+                        <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.People" IconColor="Color.Inherit" Href="weather">Weather</MudNavLink>
+                        <AuthorizeView>
+                            <Authorized>
+                                <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Dashboard" IconColor="Color.Inherit" Href="addtodo">Add todo</MudNavLink>
+                                <MudNavLink Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Dashboard" IconColor="Color.Inherit" Href="todolist">Todo List</MudNavLink>
+                            </Authorized>
+                        </AuthorizeView>
+                    </MudNavMenu>
+                </MudDrawer>    
+            </MudDrawerContainer>
+        </MudPaper>
+    </nav>
+</div>
+
+@code {
+
+    bool open = true;
+
+    void ToggleDrawer()
+    {
+        open = !open;
+    }
+
+
+    private string? currentUrl;
+    protected override void OnInitialized()
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
+        NavigationManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(e.Location);
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+
+}

@@ -1,0 +1,46 @@
+﻿@page "/"
+
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Components.Authorization
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<h1>Welcome to the Todo App</h1>
+@if (IsUserSignedIn)
+{
+    <div class="d-flex align-items-center gap-4 mt-4">
+        <a href="/addtodo" class="btn alert-primary">Add a todo</a>
+        <a class="btn alert-secondary" href="/todolist">Display todolist</a>
+    </div>
+}
+else
+
+{
+
+    <p>Login or register to get started</p>
+    <div class="d-flex align-items-center gap-2">
+        <a href="/Account/Login" class="btn btn alert-primary">Login</a>
+        <a href="/Account/Register" class="btn btn alert-primary">Register</a>
+    </div>
+}
+
+@code {
+    private bool IsUserSignedIn;
+
+    protected override async Task OnInitializedAsync()
+    {
+        IsUserSignedIn = await IsUserSignedInAsync();
+    }
+
+    private async Task<bool> IsUserSignedInAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        return user.Identity.IsAuthenticated;
+    }
+}
